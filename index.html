@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Servicios de comida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Servicios de comida</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="Carrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Carrusel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#Carrusel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#Carrusel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Burguers.jpg" class="d-block w-100" alt="Servicio de hamburguesas">
+            </div>
+            <div class="carousel-item">
+                <img src="pizzas.jpg" class="d-block w-100" alt="Servicios de Pizzas">
+            </div>
+            <div class="carousel-item">
+                <img src="papa-asada.jpg" class="d-block w-100" alt="Servicios de Papas Asadas">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container my-5" id="servicios">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesas</h5>
+                        <p class="card-text">Deliciosas hamburguesas para llenar la barriga despues una gran jornada de trabajo.</p>
+                        <a href="https://www.burgerking.com.mx/es/" class="btn btn-primary">Burguer King</a>
+                        <a href="https://carlsjr.com.mx/" class="btn btn-primary">Carl's Jr</a>
+                        <a href="https://teoburger.com/" class="btn btn-primary">Teo Burger</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizzas</h5>
+                        <p class="card-text">Come de este manjar italiano para estar satisfecho con su sabor.</p>
+                        <a href="https://www.pizzahut.com.mx/home" class="btn btn-primary">Pizza Hut</a>
+                        <a href="https://napolipizza.com.mx/pizzas/" class="btn btn-primary">Napoli Pizza</a>
+                        <a href="https://www.pizzadprizza.com/" class="btn btn-primary">Pizza Deprizza</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Papas Asadas</h5>
+                        <p class="card-text">Disfruta de nuestro platillo local.</p>
+                        <a href="https://www.facebook.com/losquezadamty#" class="btn btn-primary">Los Quezada</a>
+                        <a href="https://tacoselguero.mx/menu/" class="btn btn-primary">Tacos El Guero</a>
+                        <a href="https://www.elcarbonero.com.mx/" class="btn btn-primary">El Carbonero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Contacto: juanalbertocavazosmontano83@gmail.com</p>
+    </footer>
+</body>
+</html>
